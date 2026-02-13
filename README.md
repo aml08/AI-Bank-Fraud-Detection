@@ -13,7 +13,6 @@ L'objectif est de montrer la chaîne de valeur complète : du code brut à l'imp
 ##  1. Exploration des Données (Data Discovery)
 Chargement du dataset de 284 000 transactions et premières analyses via Pandas.
 
-** Mon Code :**
 ![Data Code](1_data_discovery.png)
 
 ---
