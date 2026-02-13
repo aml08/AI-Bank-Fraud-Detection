@@ -21,10 +21,8 @@ Chargement du dataset de 284 000 transactions et premières analyses via Pandas.
 ##  2. Analyse du Déséquilibre (Imbalance)
 Le défi majeur de ce projet est le déséquilibre extrême des classes (0.17% de fraudes). J'ai utilisé `seaborn` pour visualiser cette disparité critique.
 
-** Mon Code :**
 ![Imbalance Code](2_class_imbalance.png)
 
-** Résultat Visuel :**
 ![Imbalance Graph](2_class_imbalance_1.png)
 
 ---
@@ -32,11 +30,8 @@ Le défi majeur de ce projet est le déséquilibre extrême des classes (0.17% d
 ##  3. Comparaison des Modèles (Benchmark)
 J'ai développé un script pour comparer 3 algorithmes (**Random Forest, Logistic Regression, XGBoost**) sur 5 métriques clés.
 
-** Mon Code :**
 ![Comparison Code](3_model_comparison.png)
 
-** Résultat Visuel (Performance) :**
-On constate que le **XGBoost** (barres de droite) offre le meilleur compromis global.
 ![Comparison Graph](3_model_comparison_1.png)
 
 ---
@@ -44,10 +39,8 @@ On constate que le **XGBoost** (barres de droite) offre le meilleur compromis gl
 ## ⚙️ 4. Optimisation Avancée (GridSearchCV)
 Pour maximiser la performance du modèle gagnant (XGBoost), j'ai codé une recherche par grille pour trouver les meilleurs hyperparamètres (`learning_rate`, `max_depth`, `n_estimators`).
 
-** Mon Code (Définition de la grille) :**
 ![Optimization Params](4_optimization_code.png)
 
-** Mon Code (Exécution du GridSearch) :**
 ![Optimization Run](4_optimization_code_1.png)
 
 ---
@@ -55,7 +48,7 @@ Pour maximiser la performance du modèle gagnant (XGBoost), j'ai codé une reche
 ##  5. Performance Finale
 Le modèle optimisé atteint une capacité de discrimination quasi-parfaite.
 
-**📊 Résultat Final (Courbe ROC) :**
+** Résultat Final (Courbe ROC) :**
 L'AUC de **0.97** prouve la robustesse du modèle.
 ![Final ROC](5_final_results.png)
 
