@@ -35,7 +35,7 @@ J'ai développé un script pour comparer 3 algorithmes (**Random Forest, Logisti
 
 ---
 
-## ⚙️ 4. Optimisation Avancée (GridSearchCV)
+##  4. Optimisation Avancée (GridSearchCV)
 Pour maximiser la performance du modèle gagnant (XGBoost), j'ai codé une recherche par grille pour trouver les meilleurs hyperparamètres (`learning_rate`, `max_depth`, `n_estimators`).
 
 ![Optimization Params](4_optimization_code.png)
